@@ -4,3 +4,7 @@ Google Hash Code Java project
 
 empty java project that use maven
 
+Maven command:
+ - mvn compile  	execute the compilation plugins
+ - mvn test			compile and execute the unit-test
+ - mvn exec:java 	run the java application

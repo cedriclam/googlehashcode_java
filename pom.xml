@@ -26,6 +26,15 @@
 				<target>1.6</target>
 			</configuration>
 		</plugin>
+    <plugin>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>exec-maven-plugin</artifactId>
+      <version>1.1</version>
+      <configuration>
+        <mainClass>com.google.hashcode.App</mainClass>
+      </configuration>
+    </plugin>
 	  </plugins>
 	</build>
+
 </project>
